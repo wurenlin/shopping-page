@@ -1,0 +1,332 @@
+/*公用*/
+.comWidth{
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+/*topBar*/
+.topBar{
+	height: 31px;
+	background-color: #F7F7F7;
+	line-height: 31px;
+}
+.topBar .topBarleft{
+	float: left;
+}
+.topBar .topBarright{
+	float: right;
+}
+.collection{
+	background: url(images/icon/collection.png) left center no-repeat;  /*left center 左中*/
+	padding-left: 19px;
+	font-weight: bold;
+}
+.topBar a:hover{
+	color: red;
+}
+/*logo*/
+.logoBar{
+	height: 85px;
+	background-color: #1D7AD9;
+}
+.logo{
+	padding-left: 41px;
+	padding-top: 25px;
+	float: left;
+}
+/*search*/
+.seach_box{
+	float: left;
+	width: 430px;
+	padding-top: 25px;
+	padding-left: 130px;
+}
+.search_text{
+	width: 350px;
+	height: 35px;
+	float: left;
+	padding: 0 5px;
+
+}
+.search_btn{
+	width: 70px;
+	height: 35px;
+	font-size: 14px;
+	background-color: #FF8C00;
+	float: right;
+	color: #FFF;
+}
+/*shopcar*/
+.shopCar{
+	float: right;
+	margin-top: 25px;
+	background-color: #FF8C00;
+	width: 145px;
+	height: 35px;
+	font-size: 14px;
+	color: #FFF;
+
+}
+.shopText{
+	line-height: 35px;
+	float: left;
+	background: url(images/icon/shopCar.png) 10px center no-repeat;
+	text-indent: 40px;
+	height: 100%;
+	width: 87px;
+	border-right: #E27A00 solid 1px;
+}
+.shopNum{
+	background: url(images/icon/sj.png) center center no-repeat;
+	text-indent: 12px;
+	float:left;
+	width: 56px;
+	height: 35px;
+	border-left: #FF9C01 solid 1px;
+	line-height: 35px;
+}
+/*nav*/
+.navBox{
+	background-color: #1369C0;
+	height:35px;
+	color: #FFF;
+}
+.shopClass{
+	width: 190px;
+	float: left;
+	position: relative;
+}
+.shopClass h3{
+	line-height: 35px;
+	text-indent: 30px;
+	display: inline-block;
+}
+.shopClass i{
+	width: 11px;
+	height: 7px;
+	overflow: hidden;
+	background: url(images/icon/sj2.gif) left center no-repeat;
+	display: inline-block;
+	margin-left: 11px;
+}
+.nav{
+	float: left;
+	line-height: 35px;
+}
+.nav li{
+	float: left;
+
+}
+.nav a{                /*a中有默认样式给li赋予颜色不会改变a中样式*/
+	height:35px;
+	display: inline-block;
+	padding: 0 35px;
+    color: #FFF;
+}
+.nav .active{
+	background-color: #4593FD;
+}
+/*商品弹出列表*/
+.shopClass_show{
+	background-color:#4593FD;
+	position: absolute;
+	left: 0;
+	top: 35px;
+	width: 100%;
+
+}
+.shopClass_item .b{
+	font-size: 14px;
+	font-weight: bold;
+}
+.shopClass_item a{
+	color: #FFF;
+}
+.shopClass_item a:hover{
+	text-decoration: underline;
+}
+.shopClass_item{
+	padding:14px 10px;
+	border-bottom: #3487F2 solid 1px;
+	border-top: #5AA1FE solid 1px;
+	
+}
+.shopClass_item dt{
+	height: 24px;
+	background: url(images/icon/shop_sj.gif) right center no-repeat;
+}
+/*menu*/
+.shopClass_list{
+	width: 620px;
+	border:1px solid #FFF;
+	position: absolute;
+	left: 190px;
+	top: 0px;
+}
+.shopClass_list a:hover{
+	color: red;
+}
+.shopList_item{
+	margin-left: 20px;
+	line-height: 40px;
+	border-bottom: 1px #CCC solid;
+	width: 570px;
+	height: 67px;
+}
+.shopList_item dt a{
+	color: #4B87D9;
+}
+.shopList_item dt{
+	padding-top: 20px;
+	font-weight: bold;
+}
+.shopList_item dd{
+	margin-top: -40px;
+	margin-left: 80px;
+}
+.shopList_item a{
+	margin-right: 12px;
+}
+.shopList_links{
+	padding: 15px 0;
+	margin-left: 15px;
+}
+.shopList_links a{
+	color: #FFF;
+	background-color: #2785E6;
+	line-height: 26px;
+	height: 26px;
+	font-size: 12px;
+	display: inline-block;
+	padding:0 14px 0 8px;
+	margin-right: 10px; 
+}
+.shopList_links span{
+	width: 11px;
+	height: 7px;
+	background: url(images/icon/shop_sj.gif) no-repeat right center;
+	display: inline-block;
+}
+.shopClass_active{
+	background-color: #FFF;
+	border-left: 1px solid #4593FD;
+}
+.shopClass_active a{
+	color: #000;
+} 
+.shopClass_active dt{
+	background: none;
+}
+.tianchong{
+	height: 420px;
+}
+/*商品标题*/
+.shopTit{
+	height:44px;
+	line-height: 44px;
+	margin-bottom: 15px;
+
+}
+.shopTit h3{
+	font-size: 24px;
+	float: left;
+}
+
+.shopTit .icon{
+	width: 44px;
+	height: 44px;
+	display: inline-block;
+	background: url(images/Tim.gif) left center no-repeat;
+	float: left;
+}
+/*shoplist*/
+.shopListleft{
+	float: left;
+	width: 190px;
+	height: 400px;
+	background: url(images/banner/banner_sm01.gif) left center no-repeat;
+}
+.shopListright{
+	float: right;
+	width: 808px;
+	border: #999 solid 1px;
+	border-bottom: #FF7203 3px solid;
+	height: 396px;
+	overflow: hidden;
+	
+
+}
+.shopListright_top{
+	margin-right:-4px;
+
+}
+.shop_item{
+	width: 202px;
+	border-right: #999 solid 1px; 
+	height: 279px;
+	border-bottom: #999 solid 1px; 
+	float: left;
+	overflow: hidden;
+	
+}
+.shop_img{
+	height: 218px;
+	text-align: center;
+}
+.shop_item h3{
+	font-weight: bold;
+	text-align: center;
+}
+.shop_item p{
+	color: #FF7203;
+	text-align: center;
+}
+.shopItem_sm{
+	float: left;
+	width: 202px;
+	height: 117px;
+	text-align: center;
+	border-right: #999 solid 1px; 
+	overflow: hidden;
+
+}
+.shopsm_img{
+	height: 92px;
+	width: 98px;
+	float: left;
+}
+.shopItem_sm p{
+	margin-top: 20px;
+	font-size: 12px;
+	color: #FF7203;
+	padding-right: 1px;
+
+}
+.shopListright_bottom{
+	margin-right:-4px;
+}
+.shopt{
+	height:44px;
+	margin: 10px 10px;
+}
+.bottomtext{
+	margin-top: 100px;
+}
+.bottomtext{
+	text-align: center;
+}
+.bottomimg{
+	width: 130px;
+	height: 50px;
+}
+.trustweb{
+    display: inline-block;
+    margin-left: 450px;
+}
+
+
+
+
+
+
+
